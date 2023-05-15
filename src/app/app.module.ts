@@ -9,6 +9,7 @@ import { ProductosComponent } from './components/productos/productos.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
+import { E404Component } from './components/e404/e404.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { NosotrosComponent } from './components/nosotros/nosotros.component';
     ProductosComponent,
     HomeComponent,
     NavbarComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    E404Component
   ],
   imports: [
     BrowserModule,
