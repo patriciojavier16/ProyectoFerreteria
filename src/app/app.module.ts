@@ -10,6 +10,7 @@ import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { E404Component } from './components/e404/e404.component';
+import { InventarioComponent } from './components/inventario/inventario.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,9 @@ import { E404Component } from './components/e404/e404.component';
     HomeComponent,
     NavbarComponent,
     NosotrosComponent,
-    E404Component
+    E404Component,
+    NosotrosComponent,
+    InventarioComponent
   ],
   imports: [
     BrowserModule,
