@@ -5,11 +5,13 @@ import { HomeComponent } from './components/home/home.component';
 import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { ProductosComponent } from './components/productos/productos.component';
 import { E404Component } from './components/e404/e404.component';
+import { InventarioComponent } from './components/inventario/inventario.component';
 const routes: Routes = [
 {path: "home", component:HomeComponent},
 {path: "nosotros", component:NosotrosComponent},
 {path: "ofertas", component:OfertasComponent},
 {path: "productos", component:ProductosComponent},
+{path: "inventario", component:InventarioComponent},
 {path: "", redirectTo:"home", pathMatch:"full"},
 {path: "**", component:E404Component}
 ];
