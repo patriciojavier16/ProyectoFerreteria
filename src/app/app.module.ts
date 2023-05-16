@@ -23,11 +23,11 @@ import { InventarioComponent } from './components/inventario/inventario.componen
     NosotrosComponent,
     E404Component,
     NosotrosComponent,
-    InventarioComponent
+    InventarioComponent,
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
