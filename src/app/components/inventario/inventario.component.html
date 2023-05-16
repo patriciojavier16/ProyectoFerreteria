@@ -1,48 +1,106 @@
 <form>
+
     <div class="row mb-4">
         <div class="col">
+
             <div class="form-outline">
-                <input type="text" id="producto" class="form-control" />
-                <label class="form-label" for="producto">Producto</label>
+
+                <input type="text" id="id" class="form-control"#id />
+
+                <label class="form-label" for="id">ID</label>
+
             </div>
+
         </div>
+
         <div class="col">
+
             <div class="form-outline">
-                <input type="text" id="precio" class="form-control" />
-                <label class="form-label" for="precio">Precio</label>
+
+                <input type="text" id="producto" class="form-control"#producto />
+
+                <label class="form-label" for="producto">Producto</label>
+
             </div>
+
         </div>
+
+        <div class="col">
+
+            <div class="form-outline">
+
+                <input type="text" id="precio" class="form-control" #precio/>
+
+                <label class="form-label" for="precio">Precio</label>
+
+            </div>
+
+        </div>
+
     </div>
 
+
+
+
     <div class="form-outline mb-4">
-        <input type="text" id="cantidad" class="form-control" />
+
+        <input type="text" id="cantidad" class="form-control" #cantidad/>
+
         <label class="form-label" for="cantidad">Cantidad</label>
+
     </div>
 
+
+
+
     <div class="form-outline mb-4">
-        <input type="text" id="descripcion" class="form-control" />
+
+        <input type="text" id="descripcion" class="form-control" #descripcion/>
+
         <label class="form-label" for="descripcion">Descripción</label>
+
     </div>
 
+
+
+
     <div class="form-outline mb-4">
-        <input type="email" id="marca" class="form-control" />
+
+        <input type="text" id="marca" class="form-control" #marca/>
+
         <label class="form-label" for="marca">Marca</label>
+
     </div>
 
+
+
+
     <div class="form-outline mb-4">
-        <input type="number" id="categoria" class="form-control" />
+
+        <input type="text" id="categoria" class="form-control" #categoria/>
+
         <label class="form-label" for="categoria">Categoria</label>
+
     </div>
 
+
+
+
     <div class="form-outline mb-4">
-        <input type="number" id="codigo" class="form-control" />
+
+        <input type="text" id="codigo" class="form-control" #codigo/>
+
         <label class="form-label" for="codigo">Código</label>
+
     </div>
 
     <div class="centrar">
-        <button type="submit" class="btn btn-primary centrar">Guardar</button>
-        <button type="submit" class="btn btn-success centrar">Actualizar</button>
-        <button type="submit" class="btn btn-danger centrar">Borrar</button>
+        <button type="submit" class="btn btn-primary centrar" (click)="saveinventario(id.value, producto.value, precio.value, cantidad.value,descripcion.value,
+        marca.value, categoria.value, codigo.value)">Guardar</button>
+        <button type="submit" class="btn btn-success centrar" (click)="updateinventario(id.value, id.value, precio.value, cantidad.value,descripcion.value,
+        marca.value, categoria.value, codigo.value)">Actualizar</button>
+        <button type="submit" class="btn btn-danger centrar" (click)="eliminarinventario(id.value)">Borrar</button>
 
     </div>
+
 </form>

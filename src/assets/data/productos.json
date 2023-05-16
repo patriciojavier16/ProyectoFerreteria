@@ -1,308 +1,314 @@
 {
-    "tiles ": [
-        {
-            "producto": "baldosa agora-beige",
-            "precio": 5,
-            "cantidad": 20,
-            "descripcion": "baldosa 30x30 ",
-            "marca": "Tiles",
-            "categoria": "construcción",
-            "codigo": "BAL01AGO",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/agora-beige.png?alt=media&token=ba29f5ff-7ef6-4a41-8af3-80f295dd8490"
-        },
-        {
-            "producto": "baldosa agora-blanco",
-            "precio": 5,
-            "cantidad": 20,
-            "descripcion": "baldosa 30x30 ",
-            "marca": "Tiles",
-            "categoria": "construcción",
-            "codigo": "BAL02AGO",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/agora-blanco.png?alt=media&token=3cfcbeb8-e9ef-45e2-b8d6-483730954f7a"
-        },
-        {
-            "producto": "baldosa Balise-marron",
-            "precio": 6,
-            "cantidad": 20,
-            "descripcion": "baldosa 30x30 ",
-            "marca": "Tiles",
-            "categoria": "construcción",
-            "codigo": "BAL01BASI",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/basilea-marron-700x700.png?alt=media&token=e3064932-04a8-477c-8d95-c2719b9ea637"
-        },
-        {
-            "producto": "baldosa balise-vintage",
-            "precio": 5,
-            "cantidad": 20,
-            "descripcion": "baldosa 30x30 ",
-            "marca": "Tiles",
-            "categoria": "construcción",
-            "codigo": "BAL02BASI",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/basilea-vintage-700x700.png?alt=media&token=8f3239ce-e9a8-44c9-85f9-1ad310cf4061"
-        },
-        {
-            "producto": "baldosa Shara-beige",
-            "precio": 5,
-            "cantidad": 20,
-            "descripcion": "baldosa 30x30 ",
-            "marca": "Tiles",
-            "categoria": "construcción",
-            "codigo": "BAL01SHA",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/shara-beige-700x700.png?alt=media&token=07445cea-2e03-4b92-bacf-480dd40a0c09"
-        },
-        {
-            "producto": "baldosa Mosaic-inox",
-            "precio": 5,
-            "cantidad": 20,
-            "descripcion": "baldosa 30x30 ",
-            "marca": "Tiles",
-            "categoria": "construcción",
-            "codigo": "BAL01MO",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/mosaic-inox.jpg?alt=media&token=83fdd6e3-711f-4942-9bfb-fcaef17274cf"
-        },
-        {
-            "producto": "baldosa Teidemarron",
-            "precio": 5,
-            "cantidad": 20,
-            "descripcion": "baldosa 30x30 ",
-            "marca": "Tiles",
-            "categoria": "construcción",
-            "codigo": "BAL01TEI",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/teidemarron.jpg?alt=media&token=1d033432-fa62-4607-87fe-0c5663d0f780"
-        },
-        {
-            "producto": "baldosa Urbegris",
-            "precio": 5,
-            "cantidad": 20,
-            "descripcion": "baldosa 30x30 ",
-            "marca": "Tiles",
-            "categoria": "construcción",
-            "codigo": "BAL01URB",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/urbegris-768x768.jpg?alt=media&token=cc1f6349-de58-4d8d-8851-c645383d9d11"
-        },
-        {
-            "producto": "baldosa Urbenegro",
-            "precio": 5,
-            "cantidad": 20,
-            "descripcion": "baldosa 30x30 ",
-            "marca": "Tiles",
-            "categoria": "construcción",
-            "codigo": "BAL02URB",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/urbenegro-768x768.jpg?alt=media&token=bf02dc7a-1365-47c1-a348-05b56f95bd41"
-        },
-        {
-            "producto": "baldosa Teidegris",
-            "precio": 5,
-            "cantidad": 20,
-            "descripcion": "baldosa 30x30 ",
-            "marca": "Tiles",
-            "categoria": "construcción",
-            "codigo": "BAL02TEI",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/teidegris.jpg?alt=media&token=66970f35-5be7-45ee-a67c-0f304fd7b719"
-        }
-    ],
-    "tips": [
-        {
-            "producto": "Desengrasante",
-            "precio": "15",
-            "cantidad": "30",
-            "descripcion": "Desengrasante en caneca",
-            "marca": "Tips",
-            "categoria": "Limpieza",
-            "codigo": "DESEN01",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/8-300x300.jpg?alt=media&token=240e1b5f-309e-49ca-898e-855cb0cd5005"
-        },
-        {
-            "producto": "Aromatizante",
-            "precio": "10",
-            "cantidad": "30",
-            "descripcion": "Difusor de momentos (automatico)",
-            "marca": "Tips",
-            "categoria": "Hogar",
-            "codigo": "AROMA01",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/12-300x300.jpg?alt=media&token=a02783de-6a1d-4be9-ae41-31a473ac772c"
-        },
-        {
-            "producto": "Aromatizante en Spray",
-            "precio": "5",
-            "cantidad": "40",
-            "descripcion": "Difusor de momentos (manual)",
-            "marca": "Tips",
-            "categoria": "Hogar",
-            "codigo": "AROMA02",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/29-300x300.jpg?alt=media&token=f411ebd5-a750-4be4-9c7a-29aed78521da"
-        },
-        {
-            "producto": "Ambientador",
-            "precio": "7",
-            "cantidad": "20",
-            "descripcion": "Ambientador en aerosol 400ML",
-            "marca": "Tips",
-            "categoria": "Hogar",
-            "codigo": "AMBI01",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPS_4002-300x300.png?alt=media&token=7508d78c-db84-46d8-a084-b1f1a216e116"
-        },
-        {
-            "producto": "Aromatizante Bambu",
-            "precio": "15",
-            "cantidad": "20",
-            "descripcion": "Aromatizante de bambu",
-            "marca": "Tips",
-            "categoria": "Hogar",
-            "codigo": "AROMA03",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPS_BAMBU_EL.png?alt=media&token=a3b21334-4b6c-4f97-9152-60858e420077"
-        },
-        {
-            "producto": "Ambientador",
-            "precio": "10",
-            "cantidad": "20",
-            "descripcion": "Ambientador en aerosol 250ML",
-            "marca": "Tips",
-            "categoria": "Hogar",
-            "codigo": "AMBI02",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPS-300x300.png?alt=media&token=3160993a-431b-4e2c-a7ce-e19c9b3879e1"
-        },
-        {
-            "producto": "Aromatizante Bambu 15ML",
-            "precio": "10",
-            "cantidad": "20",
-            "descripcion": "Aromatizante de bambu 15ML",
-            "marca": "Tips",
-            "categoria": "Hogar",
-            "codigo": "AROMA04",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TipsBambu15-300x300.png?alt=media&token=6f9eaf87-a636-4e1e-bf1f-84050ba37d25"
-        },
-        {
-            "producto": "Pastilla Ambiental",
-            "precio": "3",
-            "cantidad": "10",
-            "descripcion": "Pastlla ambiental para baños",
-            "marca": "Tips",
-            "categoria": "Aseo",
-            "codigo": "PASTI01AM",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPSPASTAMB2-300x300.png?alt=media&token=0c93bb52-7a92-468f-9bd9-fcbda236b30a"
-        },
-        {
-            "producto": "Toallas Desinfectantes",
-            "precio": "5",
-            "cantidad": "20",
-            "descripcion": "Toallas desinfectantes multiusos",
-            "marca": "Tips",
-            "categoria": "Aseo",
-            "codigo": "TODESI01",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/ToallaDesinfMulti-300x300.png?alt=media&token=e52d777a-e738-4d3a-a5eb-2d390afadb90"
-        },
-        {
-            "producto": "Desinfectante",
-            "precio": "8",
-            "cantidad": "20",
-            "descripcion": "Desinfectante de ambientes",
-            "marca": "Tips",
-            "categoria": "Aseo",
-            "codigo": "DESI01",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/MultiusoTipsDesinf-2-300x300.png?alt=media&token=b72362e9-d990-459a-a5b2-74013c2fc228"
-        }
-    ],
-    "colgate": [
-        {
-            "producto": "cepillo Dental Azul",
-            "precio": "2",
-            "cantidad": "10",
-            "descripcion": "cepillo dental normal",
-            "marca": "colgate",
-            "categoria": "Aseo",
-            "codigo": "CEPIDEN01",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/cepillo.jpg?alt=media&token=97791c11-fca8-45e6-8561-c95e0e6a30c5"
-        },
-        {
-            "producto": "Cepillo Dental Blanco",
-            "precio": "3",
-            "cantidad": "10",
-            "descripcion": "cepillo dental normal",
-            "marca": "colgate",
-            "categoria": "Aseo",
-            "codigo": "CEPIDEN02",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-360.jpg?alt=media&token=42f7b33b-8593-4ef5-8914-e477a17b6de7"
-        },
-        {
-            "producto": "Colgate Plax Ice",
-            "precio": "8",
-            "cantidad": "20",
-            "descripcion": "Enjuague Bucal PLaxIce",
-            "marca": "colgate",
-            "categoria": "Aseo",
-            "codigo": "PLAXICE01",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-plax-ice.png?alt=media&token=ca43fdfb-7b41-4e31-9070-1d2db9531f4e"
-        },
-        {
-            "producto": "Pasta Dental",
-            "precio": "4",
-            "cantidad": "10",
-            "descripcion": "Pasta Dental MaxFresh",
-            "marca": "colgate",
-            "categoria": "Aseo",
-            "codigo": "PASTA01",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-maxfresh.jpg?alt=media&token=7c5b9c60-275f-4203-88c2-2f00c3ad5398"
-        },
-        {
-            "producto": "Pasta Dental Niños",
-            "precio": "5",
-            "cantidad": "10",
-            "descripcion": "pasta dental para niños de minions",
-            "marca": "colgate",
-            "categoria": "Aseo",
-            "codigo": "PASTA02MI",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-minions.jpg?alt=media&token=c7038be0-6262-4d33-8686-251b509af0e0"
-        },
-        {
-            "producto": "Colgate Plax Ice Cold",
-            "precio": "5",
-            "cantidad": "10",
-            "descripcion": "Enjuague Bucal PLaxIcec Cold",
-            "marca": "colgate",
-            "categoria": "Aseo",
-            "codigo": "PLAXICE02CO",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-plax-ice-cold.jpg?alt=media&token=9ea5ede9-c5d8-4168-8e7b-7543659fffd9"
-        },
-        {
-            "producto": "Pasta Dental Sensitive",
-            "precio": "5",
-            "cantidad": "10",
-            "descripcion": "Colgate Sensitive",
-            "marca": "colgate",
-            "categoria": "Aseo",
-            "codigo": "PASTA03SEN",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-sensitive.jpg?alt=media&token=e4a60a05-0027-4ac6-8c60-975ddeb5821e"
-        },
-        {
-            "producto": "Hilo Dental",
-            "precio": "3",
-            "cantidad": "10",
-            "descripcion": "Hilo dental 25m",
-            "marca": "colgate",
-            "categoria": "Aseo",
-            "codigo": "HILO01DE",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/fita-dental.jpg?alt=media&token=e2653e93-f4a3-4c4a-93bf-d2ff06c106ad"
-        },
-        {
-            "producto": "Hilo Dental Menta",
-            "precio": "3",
-            "cantidad": "10",
-            "descripcion": "Hilo dental de menta",
-            "marca": "colgate",
-            "categoria": "Aseo",
-            "codigo": "HILO02DE",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/hilo-dental.jpg?alt=media&token=b16ae9cc-4547-4359-938f-72a2460b4f4f"
-        },
-        {
-            "producto": "Pasta Dental Niños",
-            "precio": "5",
-            "cantidad": "10",
-            "descripcion": "Pasta Dental Liga de la Justicia",
-            "marca": "colgate",
-            "categoria": "Aseo",
-            "codigo": "PASTA04JUS",
-            "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/liga-justicia.jpg?alt=media&token=c8822ba8-9083-4e13-bd22-fe785a9d7bfc"
-        }
-    ]
+  "productos": [
+    {
+      "producto": "baldosa agora-beige",
+      "precio": 5,
+      "cantidad": 20,
+      "descripcion": "baldosa 30x30 ",
+      "marca": "Tiles",
+      "categoria": "construcción",
+      "codigo": "BAL01AGO",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/agora-beige.png?alt=media&token=ba29f5ff-7ef6-4a41-8af3-80f295dd8490"
+    },
+    {
+      "producto": "baldosa agora-blanco",
+      "precio": 5,
+      "cantidad": 20,
+      "descripcion": "baldosa 30x30 ",
+      "marca": "Tiles",
+      "categoria": "construcción",
+      "codigo": "BAL02AGO",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/agora-blanco.png?alt=media&token=3cfcbeb8-e9ef-45e2-b8d6-483730954f7a"
+    },
+    {
+      "producto": "baldosa Balise-marron",
+      "precio": 6,
+      "cantidad": 20,
+      "descripcion": "baldosa 30x30 ",
+      "marca": "Tiles",
+      "categoria": "construcción",
+      "codigo": "BAL01BASI",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/basilea-marron-700x700.png?alt=media&token=e3064932-04a8-477c-8d95-c2719b9ea637"
+    },
+    {
+      "producto": "baldosa balise-vintage",
+      "precio": 5,
+      "cantidad": 20,
+      "descripcion": "baldosa 30x30 ",
+      "marca": "Tiles",
+      "categoria": "construcción",
+      "codigo": "BAL02BASI",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/basilea-vintage-700x700.png?alt=media&token=8f3239ce-e9a8-44c9-85f9-1ad310cf4061"
+    },
+    {
+      "producto": "baldosa Shara-beige",
+      "precio": 5,
+      "cantidad": 20,
+      "descripcion": "baldosa 30x30 ",
+      "marca": "Tiles",
+      "categoria": "construcción",
+      "codigo": "BAL01SHA",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/shara-beige-700x700.png?alt=media&token=07445cea-2e03-4b92-bacf-480dd40a0c09"
+    },
+    {
+      "producto": "baldosa Mosaic-inox",
+      "precio": 5,
+      "cantidad": 20,
+      "descripcion": "baldosa 30x30 ",
+      "marca": "Tiles",
+      "categoria": "construcción",
+      "codigo": "BAL01MO",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/mosaic-inox.jpg?alt=media&token=83fdd6e3-711f-4942-9bfb-fcaef17274cf"
+    },
+    {
+      "producto": "baldosa Teidemarron",
+      "precio": 5,
+      "cantidad": 20,
+      "descripcion": "baldosa 30x30 ",
+      "marca": "Tiles",
+      "categoria": "construcción",
+      "codigo": "BAL01TEI",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/teidemarron.jpg?alt=media&token=1d033432-fa62-4607-87fe-0c5663d0f780"
+    },
+    {
+      "producto": "baldosa Urbegris",
+      "precio": 5,
+      "cantidad": 20,
+      "descripcion": "baldosa 30x30 ",
+      "marca": "Tiles",
+      "categoria": "construcción",
+      "codigo": "BAL01URB",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/urbegris-768x768.jpg?alt=media&token=cc1f6349-de58-4d8d-8851-c645383d9d11"
+    },
+    {
+      "producto": "baldosa Urbenegro",
+      "precio": 5,
+      "cantidad": 20,
+      "descripcion": "baldosa 30x30 ",
+      "marca": "Tiles",
+      "categoria": "construcción",
+      "codigo": "BAL02URB",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/urbenegro-768x768.jpg?alt=media&token=bf02dc7a-1365-47c1-a348-05b56f95bd41"
+    },
+    {
+      "producto": "baldosa Teidegris",
+      "precio": 5,
+      "cantidad": 20,
+      "descripcion": "baldosa 30x30 ",
+      "marca": "Tiles",
+      "categoria": "construcción",
+      "codigo": "BAL02TEI",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/teidegris.jpg?alt=media&token=66970f35-5be7-45ee-a67c-0f304fd7b719"
+    },
+    {
+      "producto": "Desengrasante",
+      "precio": "15",
+      "cantidad": "30",
+      "descripcion": "Desengrasante en caneca",
+      "marca": "Tips",
+      "categoria": "Limpieza",
+      "codigo": "DESEN01",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/8-300x300.jpg?alt=media&token=240e1b5f-309e-49ca-898e-855cb0cd5005"
+    },
+    {
+      "producto": "Aromatizante",
+      "precio": "10",
+      "cantidad": "30",
+      "descripcion": "Difusor de momentos (automatico)",
+      "marca": "Tips",
+      "categoria": "Hogar",
+      "codigo": "AROMA01",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/12-300x300.jpg?alt=media&token=a02783de-6a1d-4be9-ae41-31a473ac772c"
+    },
+    {
+      "producto": "Aromatizante en Spray",
+      "precio": "5",
+      "cantidad": "40",
+      "descripcion": "Difusor de momentos (manual)",
+      "marca": "Tips",
+      "categoria": "Hogar",
+      "codigo": "AROMA02",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/29-300x300.jpg?alt=media&token=f411ebd5-a750-4be4-9c7a-29aed78521da"
+    },
+    {
+      "producto": "Ambientador",
+      "precio": "7",
+      "cantidad": "20",
+      "descripcion": "Ambientador en aerosol 400ML",
+      "marca": "Tips",
+      "categoria": "Hogar",
+      "codigo": "AMBI01",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPS_4002-300x300.png?alt=media&token=7508d78c-db84-46d8-a084-b1f1a216e116"
+    },
+    {
+      "producto": "Aromatizante Bambu",
+      "precio": "15",
+      "cantidad": "20",
+      "descripcion": "Aromatizante de bambu",
+      "marca": "Tips",
+      "categoria": "Hogar",
+      "codigo": "AROMA03",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPS_BAMBU_EL.png?alt=media&token=a3b21334-4b6c-4f97-9152-60858e420077"
+    },
+    {
+      "producto": "Ambientador",
+      "precio": "10",
+      "cantidad": "20",
+      "descripcion": "Ambientador en aerosol 250ML",
+      "marca": "Tips",
+      "categoria": "Hogar",
+      "codigo": "AMBI02",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPS-300x300.png?alt=media&token=3160993a-431b-4e2c-a7ce-e19c9b3879e1"
+    },
+    {
+      "producto": "Aromatizante Bambu 15ML",
+      "precio": "10",
+      "cantidad": "20",
+      "descripcion": "Aromatizante de bambu 15ML",
+      "marca": "Tips",
+      "categoria": "Hogar",
+      "codigo": "AROMA04",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TipsBambu15-300x300.png?alt=media&token=6f9eaf87-a636-4e1e-bf1f-84050ba37d25"
+    },
+    {
+      "producto": "Pastilla Ambiental",
+      "precio": "3",
+      "cantidad": "10",
+      "descripcion": "Pastlla ambiental para baños",
+      "marca": "Tips",
+      "categoria": "Aseo",
+      "codigo": "PASTI01AM",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPSPASTAMB2-300x300.png?alt=media&token=0c93bb52-7a92-468f-9bd9-fcbda236b30a"
+    },
+    {
+      "producto": "Toallas Desinfectantes",
+      "precio": "5",
+      "cantidad": "20",
+      "descripcion": "Toallas desinfectantes multiusos",
+      "marca": "Tips",
+      "categoria": "Aseo",
+      "codigo": "TODESI01",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/ToallaDesinfMulti-300x300.png?alt=media&token=e52d777a-e738-4d3a-a5eb-2d390afadb90"
+    },
+    {
+      "producto": "Desinfectante",
+      "precio": "8",
+      "cantidad": "20",
+      "descripcion": "Desinfectante de ambientes",
+      "marca": "Tips",
+      "categoria": "Aseo",
+      "codigo": "DESI01",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/MultiusoTipsDesinf-2-300x300.png?alt=media&token=b72362e9-d990-459a-a5b2-74013c2fc228"
+    },
+    {
+      "producto": "cepillo Dental Azul",
+      "precio": "2",
+      "cantidad": "10",
+      "descripcion": "cepillo dental normal",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "CEPIDEN01",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/cepillo.jpg?alt=media&token=97791c11-fca8-45e6-8561-c95e0e6a30c5"
+    },
+    {
+      "producto": "Cepillo Dental Blanco",
+      "precio": "3",
+      "cantidad": "10",
+      "descripcion": "cepillo dental normal",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "CEPIDEN02",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-360.jpg?alt=media&token=42f7b33b-8593-4ef5-8914-e477a17b6de7"
+    },
+    {
+      "producto": "Colgate Plax Ice",
+      "precio": "8",
+      "cantidad": "20",
+      "descripcion": "Enjuague Bucal PLaxIce",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "PLAXICE01",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-plax-ice.png?alt=media&token=ca43fdfb-7b41-4e31-9070-1d2db9531f4e"
+    },
+    {
+      "producto": "Pasta Dental",
+      "precio": "4",
+      "cantidad": "10",
+      "descripcion": "Pasta Dental MaxFresh",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "PASTA01",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-maxfresh.jpg?alt=media&token=7c5b9c60-275f-4203-88c2-2f00c3ad5398"
+    },
+    {
+      "producto": "Pasta Dental Niños",
+      "precio": "5",
+      "cantidad": "10",
+      "descripcion": "pasta dental para niños de minions",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "PASTA02MI",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-minions.jpg?alt=media&token=c7038be0-6262-4d33-8686-251b509af0e0"
+    },
+    {
+      "producto": "Colgate Plax Ice Cold",
+      "precio": "5",
+      "cantidad": "10",
+      "descripcion": "Enjuague Bucal PLaxIcec Cold",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "PLAXICE02CO",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-plax-ice-cold.jpg?alt=media&token=9ea5ede9-c5d8-4168-8e7b-7543659fffd9"
+    },
+    {
+      "producto": "Pasta Dental Sensitive",
+      "precio": "5",
+      "cantidad": "10",
+      "descripcion": "Colgate Sensitive",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "PASTA03SEN",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-sensitive.jpg?alt=media&token=e4a60a05-0027-4ac6-8c60-975ddeb5821e"
+    },
+    {
+      "producto": "Hilo Dental",
+      "precio": "3",
+      "cantidad": "10",
+      "descripcion": "Hilo dental 25m",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "HILO01DE",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/fita-dental.jpg?alt=media&token=e2653e93-f4a3-4c4a-93bf-d2ff06c106ad"
+    },
+    {
+      "producto": "Hilo Dental Menta",
+      "precio": "3",
+      "cantidad": "10",
+      "descripcion": "Hilo dental de menta",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "HILO02DE",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/hilo-dental.jpg?alt=media&token=b16ae9cc-4547-4359-938f-72a2460b4f4f"
+    },
+    {
+      "producto": "Pasta Dental Niños",
+      "precio": "5",
+      "cantidad": "10",
+      "descripcion": "Pasta Dental Liga de la Justicia",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "PASTA04JUS",
+      "imagen": "https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/liga-justicia.jpg?alt=media&token=c8822ba8-9083-4e13-bd22-fe785a9d7bfc"
+    },
+    {
+      "id": "2",
+      "producto": "2",
+      "precio": "5",
+      "cantidad": "10",
+      "descripcion": "PASTA DENTAL ",
+      "marca": "colgate",
+      "categoria": "Aseo",
+      "codigo": "PASTA10"
+    }
+  ]
 }
