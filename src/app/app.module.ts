@@ -11,6 +11,7 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
 import { E404Component } from './components/e404/e404.component';
 import { InventarioComponent } from './components/inventario/inventario.component';
+import {HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { InventarioComponent } from './components/inventario/inventario.componen
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]

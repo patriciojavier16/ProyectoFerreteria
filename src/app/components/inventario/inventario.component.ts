@@ -9,12 +9,12 @@ import { InventarioService } from 'src/app/services/inventario.service';
 export class InventarioComponent {
   constructor(private servicio: InventarioService){}
 
-  saveinventario(id: string, producto: string, precio:number, cantidad:number, descripcion:string,
+  saveinventario(id: string, producto: string, precio:string, cantidad:string, descripcion:string,
     marca:string, categoria:string, codigo:string){
-    
+    const ide: number= parseInt(id)
     const temp= {
       
-      "id":id,
+      "id":ide,
       "producto": producto,
       "precio": precio,
       "cantidad":cantidad,
@@ -29,11 +29,12 @@ export class InventarioComponent {
     console.log(temp)
   }
 
-  updateinventario(id: string, producto: string, precio:number, cantidad:number, descripcion:string,
+  updateinventario(id: string, producto: string, precio:string, cantidad:string, descripcion:string,
     marca:string, categoria:string, codigo:string ){
     const ide: number= parseInt(id)
     const temp= {
-      "id":id,
+
+      "id":ide,
       "producto": producto,
       "precio": precio,
       "cantidad":cantidad,

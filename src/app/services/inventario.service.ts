@@ -8,10 +8,10 @@ import { Observable } from 'rxjs';
 export class InventarioService {
 
   constructor(private http: HttpClient) { }
-  private API_INVENTARIO='http://localhost:3000'
+  private API_INVENTARIO='http://localhost:3000/productos'
 
-  postinventario(cafe:any):Observable<any>{
-    return this.http.post(this.API_INVENTARIO, cafe)
+  postinventario(productos:any):Observable<any>{
+    return this.http.post(this.API_INVENTARIO, productos)
     }
     //METODO GET
     getinventario(): Observable <any>{
