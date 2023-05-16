@@ -6,13 +6,15 @@ import { AppComponent } from './app.component';
 import { OfertasComponent } from './components/ofertas/ofertas.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NosotrosComponent } from './components/nosotros/nosotros.component';
+import { InventarioComponent } from './components/inventario/inventario.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     OfertasComponent,
     FooterComponent,
-    NosotrosComponent
+    NosotrosComponent,
+    InventarioComponent
   ],
   imports: [
     BrowserModule,

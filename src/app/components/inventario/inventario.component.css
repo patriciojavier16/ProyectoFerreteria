@@ -1,0 +1,9 @@
+button{
+    justify-content: space-evenly;
+    margin: 4px;
+    padding: 4PX;
+    text-align: center;
+}
+.centrar{
+    text-align: center;
+}
