@@ -1,167 +1,17 @@
 <h2 class="title">PRODUCTOS</h2>
-<p>PRODUCTOS DISPONIBLES EN NUSTRA TIENDA.
-</p>
-<h2 class="title">TILES</h2>
-<div class="box-container">
+<p>PRODUCTOS DISPONIBLES EN NUSTRA TIENDA.</p>
 
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/agora-beige.png?alt=media&token=ba29f5ff-7ef6-4a41-8af3-80f295dd8490" alt="" class="images-tiles">
-        <h3>Agora-beige</h3>
-        <p class="p2">Baldosa color crema</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/agora-blanco.png?alt=media&token=3cfcbeb8-e9ef-45e2-b8d6-483730954f7a" alt="" class="images-tiles">
-        <h3>Agora-blanco</h3>
-        <p class="p2">Baldosa color blanco</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/basilea-marron-700x700.png?alt=media&token=e3064932-04a8-477c-8d95-c2719b9ea637" alt="" class="images-tiles">
-        <h3>Basilea-marron</h3>
-        <p class="p2">baldosa color marron</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/basilea-vintage-700x700.png?alt=media&token=8f3239ce-e9a8-44c9-85f9-1ad310cf4061" alt="" class="images-tiles">
-        <h3>Basilea-vintage</h3>
-        <p class="p2">baldosa color blanco ondulado</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/mosaic-inox.jpg?alt=media&token=83fdd6e3-711f-4942-9bfb-fcaef17274cf" alt="" class="images-tiles">
-        <h3>Mosaic-inox</h3>
-        <p class="p2">baldosa color gris en mosaico</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/shara-beige-700x700.png?alt=media&token=07445cea-2e03-4b92-bacf-480dd40a0c09" alt="" class="images-tiles">
-        <h3>Shara-beige</h3>
-        <p class="p2">baldosa color crema con rayas</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/teidemarron.jpg?alt=media&token=1d033432-fa62-4607-87fe-0c5663d0f780" alt="" class="images-tiles">
-        <h3>Teidemarron</h3>
-        <p class="p2">baldosa color marrón en mosaico</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/urbegris-768x768.jpg?alt=media&token=cc1f6349-de58-4d8d-8851-c645383d9d11" alt="" class="images-tiles">
-        <h3>Urbegris</h3>
-        <p class="p2">baldosa color gris en mosaico</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/urbenegro-768x768.jpg?alt=media&token=bf02dc7a-1365-47c1-a348-05b56f95bd41" alt="" class="images-tiles">
-        <h3>Urbenegro</h3>
-        <p class="p2">baldosa color negro en mosaico</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/teidegris.jpg?alt=media&token=66970f35-5be7-45ee-a67c-0f304fd7b719" alt="" class="images-tiles">
-        <h3>Teidegris</h3>
-        <p class="p2">baldosa color gris en mosaico</p>
-    </div>
+<div class="row">
+    <div class="col-md-4" *ngFor="let producto of dataProducto">
+        <div class="thumbnail">
+            <a href={{producto.imagen}}>
+                <img src={{producto.imagen}} alt="Lights" class="producto">
 
-
-</div>
-<h2 class="title">TIPS</h2>
-<div class="box-container">
-
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/8-300x300.jpg?alt=media&token=240e1b5f-309e-49ca-898e-855cb0cd5005" alt="" class="images-tiles">
-        <h3>Desengrasante</h3>
-        <p class="p2">Caneca</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/12-300x300.jpg?alt=media&token=a02783de-6a1d-4be9-ae41-31a473ac772c" alt="" class="images-tiles">
-        <h3>Aromatizante</h3>
-        <p class="p2">Difusor Momentos Automático</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/29-300x300.jpg?alt=media&token=f411ebd5-a750-4be4-9c7a-29aed78521da" alt="" class="images-tiles">
-        <h3>Spray aromatizante</h3>
-        <p class="p2">Difusor Momentos Automático</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPS_4002-300x300.png?alt=media&token=7508d78c-db84-46d8-a084-b1f1a216e116" alt="" class="images-tiles">
-        <h3>Ambientador</h3>
-        <p class="p2">Ambientador en aerosol 400ML</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPS_BAMBU_EL.png?alt=media&token=a3b21334-4b6c-4f97-9152-60858e420077" alt="" class="images-tiles">
-        <h3>Aromatizante Bambú</h3>
-        <p class="p2">Aromatizante de bambú</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPS-300x300.png?alt=media&token=3160993a-431b-4e2c-a7ce-e19c9b3879e1" alt="" class="images-tiles">
-        <h3>Ambientador</h3>
-        <p class="p2">Ambientador en aerosol 250ML</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TipsBambu15-300x300.png?alt=media&token=6f9eaf87-a636-4e1e-bf1f-84050ba37d25" alt="" class="images-tiles">
-        <h3>Aromatizante Bambú</h3>
-        <p class="p2">Aromatizante de bambu 15ML</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/TIPSPASTAMB2-300x300.png?alt=media&token=0c93bb52-7a92-468f-9bd9-fcbda236b30a" alt="" class="images-tiles">
-        <h3>Pastilla Ambiental</h3>
-        <p class="p2">Pastilla Ambiental para baños</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/ToallaDesinfMulti-300x300.png?alt=media&token=e52d777a-e738-4d3a-a5eb-2d390afadb90" alt="" class="images-tiles">
-        <h3>Toallas Desinfectantes</h3>
-        <p class="p2">Toallas Desinfectantes Multiusos</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/MultiusoTipsDesinf-2-300x300.png?alt=media&token=b72362e9-d990-459a-a5b2-74013c2fc228" alt="" class="images-tiles">
-        <h3>Desinfectante</h3>
-        <p class="p2">Desinfectante de ambientes</p>
-    </div>
-</div>
-
-<h2 class="title">COLGATE</h2>
-<div class="box-container">
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/cepillo.jpg?alt=media&token=97791c11-fca8-45e6-8561-c95e0e6a30c5" alt="" class="images-tiles">
-        <h3>Cepillo</h3>
-        <p class="p2">Cepillo dental</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-360.jpg?alt=media&token=42f7b33b-8593-4ef5-8914-e477a17b6de7" alt="" class="images-tiles">
-        <h3>Cepillo</h3>
-        <p class="p2">Cepillo dental (par)</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-plax-ice.png?alt=media&token=ca43fdfb-7b41-4e31-9070-1d2db9531f4e" alt="" class="images-tiles">
-        <h3>Colgate Plax Ice</h3>
-        <p class="p2">Enjuague Bucal PlaxIce</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-maxfresh.jpg?alt=media&token=7c5b9c60-275f-4203-88c2-2f00c3ad5398" alt="" class="images-tiles">
-        <h3>Pasta Dental</h3>
-        <p class="p2">Colgate maxfresh</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-minions.jpg?alt=media&token=c7038be0-6262-4d33-8686-251b509af0e0" alt="" class="images-tiles">
-        <h3>Pasta Dental</h3>
-        <p class="p2">Pasta dental minions</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-plax-ice-cold.jpg?alt=media&token=9ea5ede9-c5d8-4168-8e7b-7543659fffd9" alt="" class="images-tiles">
-        <h3>Colgate Plax Ice Cold</h3>
-        <p class="p2">Enjuague Bucal PlaxIce Cold</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/colgate-sensitive.jpg?alt=media&token=e4a60a05-0027-4ac6-8c60-975ddeb5821e" alt="" class="images-tiles">
-        <h3>Pasta Dental</h3>
-        <p class="p2">Colgate Sensitive</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/fita-dental.jpg?alt=media&token=e2653e93-f4a3-4c4a-93bf-d2ff06c106ad" alt="" class="images-tiles">
-        <h3>Hilo Dental</h3>
-        <p class="p2">Hilo dental 25m</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/hilo-dental.jpg?alt=media&token=b16ae9cc-4547-4359-938f-72a2460b4f4f" alt="" class="images-tiles">
-        <h3>Hilo Dental</h3>
-        <p class="p2">Hilo dental sabor menta</p>
-    </div>
-    <div class="box">
-        <img src="https://firebasestorage.googleapis.com/v0/b/ferreter-c879c.appspot.com/o/liga-justicia.jpg?alt=media&token=c8822ba8-9083-4e13-bd22-fe785a9d7bfc" alt="" class="images-tiles">
-        <h3>Pasta Dental</h3>
-        <p class="p2">Pasta dental liga de la Justicia</p>
+            </a>
+            <div class="caption">
+                <h5>Nombre: {{producto.producto}} {{producto.precio}} </h5>
+                <h5>Descripción: {{producto.descripcion}} </h5>
+            </div>
+        </div>
     </div>
 </div>

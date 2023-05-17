@@ -75,3 +75,15 @@ p{
     height: 60%;
     width: 150px;
 }
+img{
+    width: 50%;
+    height: 50%;
+    text-align: center;
+    
+}
+
+.imagen-centrada{
+    display: flex;
+    object-fit: cover;
+    align-items: center;
+}

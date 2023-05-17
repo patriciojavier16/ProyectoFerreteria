@@ -1,13 +1,17 @@
-<form action="/action_page.php">
+<form (ngSubmit)="login()">
+
+
     <div class="mb-3 mt-3">
-        <label for="usuario" class="form-label">Usuario:</label>
-        <input type="email" class="form-control" id="usuario" placeholder="Ingresa tu correo">
+      <label for="user" class="form-label">Nick:</label>
+      <input type="text" class="form-control" id="user" 
+      placeholder="Enter nick" name="email" [(ngModel)]="user">
     </div>
+
     <div class="mb-3">
-        <label for="passw" class="form-label">Contraseña:</label>
-        <input type="password" class="form-control" id="passw" placeholder="Ingresa tu contraseña">
+      <label for="pass" class="form-label">Password:</label>
+      <input type="password" class="form-control" id="pass" 
+      placeholder="Enter password" name="pswd" [(ngModel)]="pass">
     </div>
+ 
     <button type="submit" class="btn btn-primary">Submit</button>
-    <br>
-    <br>
 </form>
