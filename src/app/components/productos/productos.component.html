@@ -1,17 +1,20 @@
 <h2 class="title">PRODUCTOS</h2>
 <p>PRODUCTOS DISPONIBLES EN NUSTRA TIENDA.</p>
 
+<div class="box-container">
 <div class="row">
     <div class="col-md-4" *ngFor="let producto of dataProducto">
         <div class="thumbnail">
-            <a href={{producto.imagen}}>
-                <img src={{producto.imagen}} alt="Lights" class="producto">
-
+            <div class="box">
+                <a href={{producto.imagen}}>
+                    <img src={{producto.imagen}} alt="Lights" class="producto">
+            
             </a>
             <div class="caption">
-                <h5>Nombre: {{producto.producto}} {{producto.precio}} </h5>
-                <h5>Descripción: {{producto.descripcion}} </h5>
+                <h6>Nombre: {{producto.producto}} {{producto.precio}}  </h6>
+                <h6>Descripción: {{producto.descripcion}} </h6>
             </div>
         </div>
     </div>
+</div>
 </div>
