@@ -5,7 +5,7 @@
 }
 
 body {
-    font-family: 'open sans';
+    font-family: Arial;
 }
 
 .contenedor {
@@ -603,18 +603,6 @@ p {
     background-color: #1f1d1d;
 }
 
-header {
-    height: 600px;
-    background: #242424;
-    /* fallback for old browsers */
-    background: url(https://firebasestorage.googleapis.com/v0/b/ferreteria-appweb2.appspot.com/o/images%2Flogoc.jpeg?alt=media&token=1326b51f-f5df-4580-a8c0-df6ff1d3d3f8);
-    /* Chrome 10-25, Safari 5.1-6 */
-    background: url(https://firebasestorage.googleapis.com/v0/b/ferreteria-appweb2.appspot.com/o/images%2Flogoc.jpeg?alt=media&token=1326b51f-f5df-4580-a8c0-df6ff1d3d3f8);
-    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-    /* background-size: cover;
-    background-attachment: fixed; */
-    position: relative;
-}
 
 .image-revis {
     height: 300px;
@@ -636,7 +624,12 @@ header {
     justify-content: center;
     flex-direction: column;
 }
-.revista{
+
+.revista {
     display: flex;
     justify-content: center;
+}
+.imagen-port{
+    width: 100%;
+display: block;
 }
