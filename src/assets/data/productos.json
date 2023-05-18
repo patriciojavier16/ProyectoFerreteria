@@ -303,22 +303,26 @@
     {
       "id": "2",
       "producto": "2",
-      "precio": "5",
-      "cantidad": "10",
-      "descripcion": "PASTA DENTAL ",
-      "marca": "colgate",
-      "categoria": "Aseo",
-      "codigo": "PASTA10"
+      "precio": "",
+      "cantidad": "",
+      "descripcion": "PASTA TRIPLE ACCION",
+      "marca": "",
+      "categoria": "",
+      "codigo": ""
+    }
+  ],
+  "usuarios": [
+    {
+      "name": "Jorge12",
+      "contrasenia": "12345"
     },
     {
-      "id": 5,
-      "producto": "Foco",
-      "precio": "45",
-      "cantidad": "2",
-      "descripcion": "led",
-      "marca": "acero",
-      "categoria": "luz",
-      "codigo": "0056"
+      "name": "Danny58",
+      "contrasenia": "123456"
+    },
+    {
+      "name": "Jesus42",
+      "contrasenia": "54321"
     }
   ]
 }

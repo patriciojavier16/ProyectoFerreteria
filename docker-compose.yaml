@@ -1,0 +1,20 @@
+version: '3'
+
+services:
+  deploy:
+    build:
+      context: .
+      dockerfile: docker-Angular/Dockerfile
+    restart: always
+    image: app-ferreteria
+    ports:
+      - '127.0.0.1:8000:80'
+
+  json-server:
+    build:
+      context: .
+      dockerfile: docker-Json/Dockerfile
+    restart: always
+    image: data-ferreteria
+    ports:
+      - '3000:3000'
