@@ -57,3 +57,30 @@
     </div>
 
 </form>
+<br>
+<table class="table">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>PRODUCTO</th>
+        <th>PRECIO</th>
+        <th>CANTIDAD</th>
+        <th>DESCRIPCIÓN</th>
+        <th>MARCA</th>
+        <th>CATEGORIA</th>
+        <th>CÓDIGO</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of dataProducto">
+        <td>{{item.id}} </td>
+        <td>{{item.producto}} </td>
+        <td>{{item.precio}} </td>
+        <td>{{item.cantidad}} </td>
+        <td>{{item.descripcion}} </td>
+        <td>{{item.marca}} </td>
+        <td>{{item.categoria}} </td>
+        <td>{{item.codigo}} </td>
+      </tr>
+    </tbody>
+  </table>

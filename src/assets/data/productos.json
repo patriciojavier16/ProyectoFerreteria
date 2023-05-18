@@ -309,6 +309,16 @@
       "marca": "colgate",
       "categoria": "Aseo",
       "codigo": "PASTA10"
+    },
+    {
+      "id": 5,
+      "producto": "Foco",
+      "precio": "45",
+      "cantidad": "2",
+      "descripcion": "led",
+      "marca": "acero",
+      "categoria": "luz",
+      "codigo": "0056"
     }
   ]
 }
